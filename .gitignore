@@ -1,0 +1,32 @@
+# ==================================
+# Secrets & Environment Variables
+# ==================================
+# NEVER commit your API keys or secrets
+.env
+
+# ==================================
+# Database Files
+# ==================================
+# Ignore all database files. These are specific to your local machine.
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================================
+# Python Cache & Virtual Environments
+# ==================================
+# Ignore Python's auto-generated cache folders
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment folders
+venv/
+.venv/
+
+# ==================================
+# Streamlit
+# ==================================
+# Ignore Streamlit's local configuration folder
+.streamlit/
